@@ -13,8 +13,10 @@ body {
     justify-items: center;
 }
 .col-sm-6 a{
-    display: contents;
+    display: flex;
+    justify-content: center;
 }
+
 .col-sm-6 img{
     object-fit: cover;
 }
@@ -23,6 +25,7 @@ body {
     font-weight: bold;
     color: #000000;
 }
+
 .row.mg-md.text-center.tc-white{
     color: white;
 }
@@ -766,10 +769,6 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
-}
-.img.img-responsive.portfolio-thumb{
-    width: 375px;
-    height: 375px;
 }
 
 .portfolio-row {
