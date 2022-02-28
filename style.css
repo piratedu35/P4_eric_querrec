@@ -17,6 +17,22 @@ body {
 .col-sm-6 img{
     object-fit: cover;
 }
+.col-sm-12 p{
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #000000;
+}
+.row.mg-md.text-center.tc-white{
+    color: white;
+}
+.row h2{
+    color: white;
+    font-weight: bold;
+}
+.col-xs-12.col-md-8.col-md-offset-2.text-center p{
+    font-style: italic;
+}
+
 
 a,
 button {
@@ -659,7 +675,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -684,9 +700,6 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 11px;
-}
 
 .tight-width-whitespace {
     max-width: 600px;
@@ -711,6 +724,9 @@ p {
     max-width: 400px;
     margin: auto auto auto auto;
 }
+.fa.fa-twitter.icon-md,.fa.fa-facebook.icon-md,.fa.fa-dribbble.icon-md,.fa.fa-dribbble.icon-md,.fa.fa-instagram.icon-md{
+    color: #000000;
+}
 
 h2 {
     font-size: 1.6em;
@@ -721,7 +737,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: #333333;
 }
 
 .med-width-whitespace {
@@ -731,11 +747,11 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #333333;
 }
 
 h4 {
-    color: #333333!important;
+    color: #333333;
 }
 
 .icons {
@@ -744,7 +760,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #FFFFFF;
 }
 
 .portfolio-thumb {
@@ -783,38 +799,38 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #F3976C;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #FFFFFF;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #c27956;
+    color: #FFFFFF;
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #FFFFFF;
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: #cccccc;
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #F3976C;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #c27956;
 }
 
 .icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
+    color: #364577;
+    border-color: #364577;
 }
 
 .bg-dots-bg {
@@ -1046,5 +1062,9 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .row.row-no-gutters.social{
+        display: flex;
+        justify-content: space-between;
     }
 }
