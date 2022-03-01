@@ -24,9 +24,19 @@ body {
     font-size: 1.1em;
     font-weight: bold;
     color: #000000;
+    text-align: center;
 }
-.col-sm-12.texte-footerp2{
+p.texte-footerp2{
     font-size: 1.6em;
+}
+.bloc.bg-dots-bg.bg-repeat.bgc-atomic-tangerine.d-bloc.bloc-bg-texture.texture-paper{
+}
+h1.text-center.hero-bloc-text.tc-white{
+    color: white;
+    text-align: center;
+}
+#bloc-2-services{
+    width: 100%;
 }
 .navbar.row{
     display: flex;
