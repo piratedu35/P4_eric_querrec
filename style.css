@@ -25,6 +25,23 @@ body {
     font-weight: bold;
     color: #000000;
 }
+.col-sm-12.texte-footerp2{
+    font-size: 1.6em;
+}
+.navbar.row{
+    display: flex;
+}
+ul.site-navigation.nav.navbar-nav{
+    margin: 0;
+    padding: 0;
+}
+.site-navigation.nav.navbar-nav li{
+    list-style: none;
+
+    }
+.bloc.bgc-white.l-bloc{
+    width: 80%;
+} 
 
 .row.mg-md.text-center.tc-white{
     color: white;
@@ -38,6 +55,9 @@ body {
 }
 .row.voffset-lg.med-width-whitespace p{
     color: #000000;
+}
+.container.bloc-sm{
+    text-align: center;
 }
 
 
@@ -795,13 +815,8 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
-}
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -819,10 +834,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+   
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -831,8 +843,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
@@ -857,7 +867,6 @@ h4 {
     }
     .navbar .nav {
         padding-top: 0;
-        border-top: 1px solid rgba(0, 0, 0, .2);
         float: none!important;
     }
     .navbar.row {
@@ -871,15 +880,10 @@ h4 {
         -ms-transform: none;
     }
     .nav > li {
-        margin-top: 0;
-        border-bottom: 1px solid rgba(0, 0, 0, .1);
-        background: rgba(0, 0, 0, .05);
-        text-align: left;
-        padding-left: 15px;
-        width: 100%;
+
     }
     .nav > li:hover {
-        background: rgba(0, 0, 0, .08);
+        cursor: pointer;
     }
     .dropdown .dropdown a .caret {
         float: none;
